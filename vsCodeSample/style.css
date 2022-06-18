@@ -738,20 +738,20 @@ float: auto;
 }
 .all-platform-download-button{
     width: 1168px;
-    height: 15rem;
-    padding-top:11px;
-    padding-bottom:85px;
-    margin-left:435px;
-    background-color: #9f6969;
+    height: 6rem;
+    padding-top: 11px;
+    padding-bottom: 0px;
+    margin-left: 435px;
+    
     display: flex;
 
 }
 .windows-button{
-    margin-left: 30px;
+    margin-left: -3px;
     padding-left: 0px;
-    width: 255px;
+    width: 287px;
     height: 6rem;
-    background-color: #054a82;
+    background-color: #0666b4;
 }
 .linex-button{
     margin-left: 73px;
@@ -766,21 +766,21 @@ float: auto;
     padding-left: 0px;
     width: 255px;
     height: 6rem;
-    background-color: #054a82;
+    background-color: #0666b4;
 }
 .deb-button{
     margin-left: 0px;
     padding-left: 0px;
     width: 255px;
     height: 6rem;
-    background-color: #054a82;
+    background-color: #0666b4;
 }
 .rpm-button{
-    margin-left: 20px;
+    margin-left: 3px;
     padding-left: 0px;
     width: 255px;
     height: 6rem;
-    background-color: #054a82;
+    background-color: #0666b4;
 }
 .ws-head{
     background-image: url("imgs/ico/download.svg");
@@ -799,6 +799,158 @@ float: auto;
     margin-top: 1px;
     text-align: center;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 400;    
     color: #f0efef;
+}
+.all-platform-download-discription{
+    width: 1200px;
+    height: 15rem;
+    padding-top: 11px;
+    padding-bottom: 85px;
+    margin-left: 392px;
+    background-color: #dfe8e3;
+    display: flex;
+}
+.Windows-discription{
+    margin-left: 42px;
+    padding-left: 0;
+    width: 140px;
+    height: 6rem;
+    
+}
+.ws-dis{
+    margin-top: 0px;
+    text-align: center;
+    color: #f0efef;
+    font-weight: 600;
+    color: #27272c;
+    line-height: 30px;
+}
+.Windows-discription-bottons{
+    
+    width: 140px;
+    height: 6rem;
+}
+.wb1{
+    margin-top: 4px;
+margin-left: -15px;
+width: 161px;
+height: 25px;
+display: flex;
+}
+.wb11{
+    margin-left: 13px;
+    width: 50px;
+    height: 25px;
+    background-color: #06558e;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+
+}
+.wb12{
+    margin-left: 4px;
+    width: 50px;
+    height: 25px;
+    background-color: #06558e;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+.wb13{
+    margin-left: 4px;
+    width: 50px;
+    height: 25px;
+    background-color: #06558e;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+.wb2{
+margin-top: 7px;
+margin-left: -15px;
+width: 161px;
+height: 25px;
+
+display: flex;
+}
+.wb3{
+margin-top: 7px;
+margin-left: -15px;
+width: 161px;
+height: 25px;
+
+display: flex;
+}
+/* --------- */
+.linex-discription{
+    margin-left: 169px;
+    padding-left: 0;
+    width: 81px;
+    height: 6rem;
+    
+}
+.Ls-dis{
+    margin-top: 0px;
+    text-align: center;
+    color: #f0efef;
+    font-weight: 600;
+    color: #27272c;
+    line-height: 30px;
+}
+.linex-discription-bottons{
+    
+    width: 140px;
+    height: 6rem;
+}
+.Lb1{
+    margin-top: 4px;
+margin-left: -15px;
+width: 161px;
+height: 25px;
+display: flex;
+}
+.Lb11{
+    margin-left: 13px;
+    width: 50px;
+    height: 25px;
+    background-color: #06558e;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+
+}
+.Lb12{
+    margin-left: 4px;
+    width: 50px;
+    height: 25px;
+    background-color: #06558e;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+.Lb13{
+    margin-left: 4px;
+    width: 86px;
+    height: 25px;
+    background-color: #06558e;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+.Lb2{
+margin-top: 7px;
+margin-left: -15px;
+width: 161px;
+height: 25px;
+
+display: flex;
+}
+.Lb3{
+margin-top: 7px;
+margin-left: -15px;
+width: 161px;
+height: 25px;
+
+display: flex;
 }
