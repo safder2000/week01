@@ -1,0 +1,80 @@
+
+.ad1{
+    border-style:outset;
+    font-family: "lato";
+}
+p{
+    font-family: "lato";
+    font-size:large
+}
+h2{
+    font-family: "lato";
+    
+}
+button{
+    font-family: "lato";
+    font-size: medium;
+}
+.smallBox1{
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 5px solid;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    text-align: center;
+    float: left;
+    
+}
+.smallBox2{
+    margin-left: 6%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 5px solid;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    text-align: center;
+    float: left;
+    
+}
+.smallBox3{
+    margin-left: 6%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 5px solid;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    text-align: center;
+    float: left;
+}
+.smallBox4{
+    margin-left: 6%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 20%;
+    border: 5px solid;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    text-align: center;
+    float: left;
+}
+.smallBox7{
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+    border: 5px solid;
+    width: 350px;
+    height: 500px;
+    padding: 40px;
+    text-align: center;
+    float: left;  
+}
+    
+
+
+
