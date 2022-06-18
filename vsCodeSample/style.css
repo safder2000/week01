@@ -29,7 +29,6 @@ body{
     
     background-image:url("imgs/download.png");
     font-size: 26px;
-    
     line-height: 30px;
     background-size: 34px 34px;
     background-repeat: no-repeat;
@@ -57,7 +56,10 @@ body{
 .td-nav-mid-table{
     padding-right: 32px;
     margin-top: 0px;
-    
+ 
+}
+.td-nav-mid-table:hover{
+    color: hsl(0, 0%, 91%);
 }
 .main-nav-left{
 float: left;
@@ -141,7 +143,7 @@ border-style: none;
     padding-left: 0px;
 }
 .container-right{
-    margin-left: 200px;
+    margin-left: 237px;
     
     height: 509px;
     width:500px;
@@ -221,7 +223,7 @@ float: auto;
     
 }
 .container-left{
-    margin-left: 700px;
+    margin-left: 773px;
     width: 1197px;
     height: 1071px;
     background-image: url("imgs/home-screenshot-win-lg.png");
@@ -233,6 +235,7 @@ float: auto;
     color: rgb(166, 168, 173);
     text-align: center;
     font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    font-size: 18px;
     
 }
 .para2-under-download{
@@ -240,6 +243,11 @@ float: auto;
     color: rgb(26, 127, 216);
     text-align: center;
     font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    font-size: 18px;
+}
+.para2-under-download:hover{
+    
+    text-decoration: underline;
 }
 .container-under-mainPage{
     font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
@@ -497,10 +505,300 @@ float: auto;
     text-decoration: underline;
 }
 
-.last-block-1{
+.Vs-code-for{
     width: 100%;
     height: 28rem;
     padding-top:85px;
     padding-bottom:85px;
     background-color: #F5F5F5;
+}
+#vsCodeFor{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+}
+.vsCodeFor-table{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 23px;
+    font-weight: 400;
+}
+.t11{
+    margin-left: 0px;
+    padding-left: 66px;
+    padding-bottom: 35px;
+    padding-right: 38px;
+    padding-top: 34px;
+    background-image:url("imgs/ico/javascript.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: left 50%;
+    background-size: 96px 44px;
+}
+.t12{
+    margin-left: 0px;
+    padding-left: 66px;
+    padding-bottom: 35px;
+    padding-right: 38px;
+    padding-top: 34px;
+    background-image:url("imgs/ico/python.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: left 50%;
+    background-size: 96px 44px;
+}
+.t13{
+    margin-left: 0px;
+    padding-left: 66px;
+    padding-bottom: 35px;
+    padding-right: 38px;
+    padding-top: 34px;
+    background-image:url("imgs/ico/java.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: left 50%;
+    background-size: 96px 44px;
+}
+.t14{
+    margin-left: 0px;
+    padding-left: 66px;
+    padding-bottom: 35px;
+    padding-right: 38px;
+    padding-top: 34px;
+    background-image:url("imgs/ico/markdown.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: left 50%;
+    background-size: 96px 44px;
+}
+.t15{
+    margin-left: 0px;
+    padding-left: 66px;
+    padding-bottom: 35px;
+    padding-right: 38px;
+    padding-top: 34px;
+    background-image:url("imgs/ico/typescript.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: left 50%;
+    background-size: 96px 44px;
+}
+.t16{
+    margin-left: 0px;
+    padding-left: 66px;
+    padding-bottom: 35px;
+    padding-right: 38px;
+    padding-top: 34px;
+    background-image:url("imgs/ico/cpp.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: left 50%;
+    background-size: 96px 44px;
+}
+.t21{
+    margin-left: 0px;
+    padding-left: 66px;
+    padding-bottom: 35px;
+    padding-right: 38px;
+    padding-top: 34px;
+    background-image:url("imgs/ico/json.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: left 50%;
+    background-size: 96px 44px;
+}
+.t22{
+    margin-left: 0px;
+    padding-left: 66px;
+    padding-bottom: 35px;
+    padding-right: 38px;
+    padding-top: 34px;
+    background-image:url("imgs/ico/powershell.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: left 50%;
+    background-size: 96px 44px;
+}
+.t23{
+    margin-left: 0px;
+    padding-left: 66px;
+    padding-bottom: 35px;
+    padding-right: 38px;
+    padding-top: 34px;
+    background-image:url("imgs/ico/html.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: left 50%;
+    background-size: 96px 44px;
+}
+.t24{
+    margin-left: 0px;
+    padding-left: 66px;
+    padding-bottom: 35px;
+    padding-right: 38px;
+    padding-top: 34px;
+    background-image:url("imgs/ico/csharp.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: left 50%;
+    background-size: 96px 44px;
+}
+.t25{
+    
+    margin-left: 0px;
+    padding-left: 66px;
+    padding-bottom: 35px;
+    padding-right: 38px;
+    padding-top: 34px;
+    background-image:url("imgs/ico/php.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: left 50%;
+    background-size: 96px 44px;
+}
+.t26{
+    
+    margin-left: 0px;
+    padding-left: 66px;
+    padding-bottom: 35px;
+    padding-right: 38px;
+    padding-top: 34px;
+    background-image:url("imgs/ico/yaml.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: left 50%;
+    background-size: 96px 44px;
+}
+.Vs-code-for-link{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #0d79d1;
+    
+}
+.Vs-code-for-link:hover{
+    text-decoration: underline;
+    color: #09528e;
+}
+.get-started-now{
+    font-size: 27px;
+    font-weight: 500;
+    width: 18rem;
+    height: 5rem;
+    background-color: #1165aa;
+    margin-left: 53.7rem;
+    padding: 20px;
+    border-style: none;
+    color:#f0efef
+}
+.get-started-now:hover{
+    background-color: #054a82;
+}
+.all-platform-download{
+    width: 1168px;
+    height: 4rem;
+    padding-top:85px;
+    padding-bottom:85px;
+    margin-left:435px;
+    background-color: #ffffff;
+    display:flex;
+}
+.windows-logo{
+    margin-left: 0rem;
+    padding-left:20rem;
+    height: 10rem;
+    background-image:url("imgs/windows-logo.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 125px 143px;
+}
+.linex-logo{
+    margin-left: 0rem;
+    padding-left:34rem;
+    height: 10rem;
+    background-image:url("imgs/linux-logo.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 125px 143px;
+}
+.apple-logo{
+    margin-left: 0rem;
+    padding-left:19rem;
+    height: 10rem;
+    background-image:url("imgs/apple-logo.svg");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 125px 143px;
+    
+}
+.all-platform-download-button{
+    width: 1168px;
+    height: 15rem;
+    padding-top:11px;
+    padding-bottom:85px;
+    margin-left:435px;
+    background-color: #9f6969;
+    display: flex;
+
+}
+.windows-button{
+    margin-left: 30px;
+    padding-left: 0px;
+    width: 255px;
+    height: 6rem;
+    background-color: #054a82;
+}
+.linex-button{
+    margin-left: 73px;
+    padding-left: 0px;
+    width: 466px;
+    height: 6rem;
+    background-color: #ffffff;
+    display: flex;
+}
+.apple-button{
+    margin-left: 68px;
+    padding-left: 0px;
+    width: 255px;
+    height: 6rem;
+    background-color: #054a82;
+}
+.deb-button{
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 255px;
+    height: 6rem;
+    background-color: #054a82;
+}
+.rpm-button{
+    margin-left: 20px;
+    padding-left: 0px;
+    width: 255px;
+    height: 6rem;
+    background-color: #054a82;
+}
+.ws-head{
+    background-image: url("imgs/ico/download.svg");
+    background-repeat: no-repeat;
+    background-size: 43px 27px;
+    background-position: left 29px top 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    color: #f0efef;
+    
+}
+.ws-discription{
+    margin-top: 1px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #f0efef;
 }
