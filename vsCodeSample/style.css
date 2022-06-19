@@ -751,7 +751,7 @@ float: auto;
     padding-left: 0px;
     width: 287px;
     height: 6rem;
-    background-color: #0666b4;
+    background-color: #0066b8;
 }
 .linex-button{
     margin-left: 73px;
@@ -766,21 +766,21 @@ float: auto;
     padding-left: 0px;
     width: 255px;
     height: 6rem;
-    background-color: #0666b4;
+    background-color: #0066b8;
 }
 .deb-button{
     margin-left: 0px;
     padding-left: 0px;
     width: 255px;
     height: 6rem;
-    background-color: #0666b4;
+    background-color: #0066b8;
 }
 .rpm-button{
     margin-left: 3px;
     padding-left: 0px;
     width: 255px;
     height: 6rem;
-    background-color: #0666b4;
+    background-color: #0066b8;
 }
 .ws-head{
     background-image: url("imgs/ico/download.svg");
@@ -804,11 +804,11 @@ float: auto;
 }
 .all-platform-download-discription{
     width: 1200px;
-    height: 15rem;
+    height:5rem;
     padding-top: 11px;
     padding-bottom: 85px;
     margin-left: 392px;
-    background-color: #dfe8e3;
+    background-color: #ffffff;
     display: flex;
 }
 .Windows-discription{
@@ -842,7 +842,7 @@ display: flex;
     margin-left: 13px;
     width: 50px;
     height: 25px;
-    background-color: #06558e;
+    background-color: #0066b8;
     border-radius: 5px;
     color: #ffffff;
     text-align: center;
@@ -852,7 +852,7 @@ display: flex;
     margin-left: 4px;
     width: 50px;
     height: 25px;
-    background-color: #06558e;
+    background-color: #0066b8;
     border-radius: 5px;
     color: #ffffff;
     text-align: center;
@@ -861,7 +861,7 @@ display: flex;
     margin-left: 4px;
     width: 50px;
     height: 25px;
-    background-color: #06558e;
+    background-color: #0066b8;
     border-radius: 5px;
     color: #ffffff;
     text-align: center;
@@ -912,9 +912,9 @@ display: flex;
 }
 .Lb11{
     margin-left: 13px;
-    width: 50px;
+    width: 72px;
     height: 25px;
-    background-color: #06558e;
+    background-color: #0066b8;
     border-radius: 5px;
     color: #ffffff;
     text-align: center;
@@ -924,7 +924,7 @@ display: flex;
     margin-left: 4px;
     width: 50px;
     height: 25px;
-    background-color: #06558e;
+    background-color: #0066b8;
     border-radius: 5px;
     color: #ffffff;
     text-align: center;
@@ -933,7 +933,7 @@ display: flex;
     margin-left: 4px;
     width: 86px;
     height: 25px;
-    background-color: #06558e;
+    background-color: #0066b8;
     border-radius: 5px;
     color: #ffffff;
     text-align: center;
@@ -953,4 +953,204 @@ width: 161px;
 height: 25px;
 
 display: flex;
+}
+/* <---------------------------------------- */
+.mac-discription{
+    margin-left: 169px;
+    padding-left: 0;
+    width: 81px;
+    height: 6rem;
+    
+}
+.mac-dis{
+    margin-top: 0px;
+    text-align: center;
+    color: #f0efef;
+    font-weight: 600;
+    color: #27272c;
+    line-height: 30px;
+}
+.mac-discription-bottons{
+    
+    width: 140px;
+    height: 6rem;
+}
+.macb1{
+    margin-top: 4px;
+margin-left: -37px;
+width: 287px;
+height: 25px;
+display: flex;
+height:100%
+}
+.macb11{
+    margin-left: 13px;
+    width: 70px;
+    height: 25px;
+    background-color: #0066b8;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+
+}
+.macb12{
+    margin-left: 4px;
+    width: 77px;
+    height: 25px;
+    background-color: #0066b8;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+.macb13{
+    margin-left: 4px;
+    width: 99px;
+    height: 25px;
+    background-color: #0066b8;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+.beta{
+display: flex;
+justify-content: center;
+
+background: 
+#f5f5f5;
+
+
+}
+.new-features{
+text-align: center;
+margin:0px 180px;
+color: #464242;
+font-style: lighter;
+
+}
+
+.edit-online{
+    margin:0px 180px;
+    text-align: center;
+    color: #464242;;
+}
+.new-features-head{
+    margin-top: 39px;
+    font-size: 28px;
+    font-weight: 500;
+
+}
+.new-features-para{
+    margin-top: 0px;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.licence-n-privacy{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background:#f5f5f5;
+    color: #868484;
+    text-align: center;
+    line-height: 46px;
+}
+.licence-n-privacy-header{
+    margin-top: 55px;
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.licence-n-privacy-para{
+    margin-top: 0px;
+    font-size: 20px;
+    padding-bottom: 54px;
+}
+.footer{
+display: grid;
+
+grid-template-columns: 12% 10% 10% 10% 17% 25% 10%;
+justify-content: center;
+align-items:center;
+grid-template-areas: "space1 hello follow git space2 support logo ";
+background:#333333;
+} 
+
+.footer1{
+    width: 230px;
+    text-align: center;
+    height: 123px;
+    grid-area: hello;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+}
+
+.footer2{
+    width: 230px;
+    text-align: center;
+    height: 123px;
+    grid-area: follow;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+}
+.footer3{
+    width: 230px;
+    text-align: center;
+    height: 123px;
+    grid-area: git;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+}
+.footer4{
+    width: 497px;
+    text-align: center;
+    height: 123px;
+    grid-area: support;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+}
+
+.footer5{
+    width: 230px;
+    margin-left:-38px;
+    padding-top: 0px;
+    background-image: url("imgs/microsoft-logo.png");
+    background-position: left 50%;
+    background-size: 151px 32px;
+    background-repeat: no-repeat;
+    height: 123px;
+    grid-area: logo;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+}
+
+
+.footerLinks{
+    text-decoration: none;
+    color: #e6e6e6;
+    padding-right: 47px;
+}
+.footerLinks:hover,.footerLinks1:hover{
+    color: #caa4ff;
+    
+}
+.footerLinks1{
+    font-size: 19px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #e6e6e6;
+    padding-right: 47px;
+}
+.beta-Links{
+    text-decoration: none;
+    color: #0066b8;
+}
+.beta-Links:hover{
+    text-decoration: underline;
+    color: #004e8d;
 }
