@@ -252,40 +252,139 @@ float: auto;
 /* (".container-under-mainPage")rebuild with grid */
 .FourBlockContainer{
 display: grid;
+padding-top: 30px;
 grid-template-columns: repeat(6,1fr);
+grid-template-rows: 180px;
 grid-template-areas:"space1 inteli runNdebug gitBlock ExtentionBlock space2";
 }
-.Inteli-block{
-    width:100px;
-    height:300px;
+/* .backgrond1{
     grid-area: inteli;
-   background-color: #0066B8;
+    width: 100%;
+    height: 100%;
 }
-.inteli-img{
-    background-image: url("imgs/valueprops-top-sprite.svg");
-    background-position: left 100%;
-    background-repeat: no-repeat;
-    width: 5rem;
-    height: 5rem;
-    background-size: 20.6rem 10.4rem;
-    margin: auto;
-    margin-bottom: 1rem;
-}
-.RunDebug-block{
-    width:100px;
-    height:100px;
+.backgrond2{
     grid-area: runNdebug;
+    width: 100%;
+    height: 100%; 
 }
-.Git-block{
-    width:100px;
-    height:100px;
+.backgrond3{
     grid-area: gitBlock;
+    width: 100%;
+    height: 100%;
 }
-.Extension-block{
-    width:100px;
-    height:100px;
+.backgrond4{
     grid-area: ExtentionBlock;
+    width: 100%;
+    height: 100%;
 }
+.backgrond1:hover,
+.backgrond2:hover,
+.backgrond3:hover,
+.backgrond4:hover{
+    background-color: rgba(0,0,0,0.1);
+} */
+.Inteli-img{
+    margin-top: 20px;
+    width:90px;
+    height:88px;
+    grid-area: inteli;
+    margin-left:auto;
+    margin-right:auto;
+    background-image: url("imgs/valueprops-top-sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 346px;
+    background-position-x: 5px;
+}
+.RunDebug-img{
+    margin-top: 20px;
+    width: 88px;
+    height: 86px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-area: runNdebug;
+    background-image: url("imgs/valueprops-top-sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 346px;
+    background-position-x: -87px;
+}
+
+.Git-img{
+    margin-top: 20px;
+    width: 78px;
+    height: 84px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-area: gitBlock;
+    background-image: url("imgs/valueprops-top-sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 346px;
+    background-position-x: -180px;
+}
+.Extension-img{
+    margin-top: 20px;
+    width: 90px;
+    height: 84px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-area: ExtentionBlock;
+    background-image: url("imgs/valueprops-top-sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 346px;
+    background-position-x: -258px;
+}
+.Inteli-img:hover,.RunDebug-img:hover,.Git-img:hover,.Extension-img:hover,.Inteli-txt:hover,.RunDebug-txt:hover,.Git-txt:hover,.Extension-txt:hover{
+    background-position-y: -89px;
+    cursor: pointer;
+    
+    text-decoration: underline;
+}
+
+.Inteli-txt{
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:100px;
+    width:200px;
+    height:60px;
+    grid-area: inteli;
+    text-align: center;
+    font-size: 28px;
+    color: #333333;
+}.RunDebug-txt{
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:100px;
+    width:200px;
+    height:60px;
+    grid-area: runNdebug;
+    text-align: center;
+    font-size: 28px;
+    color: #333333;
+}.Git-txt{
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:100px;
+    width:200px;
+    height:60px;
+    grid-area: gitBlock;
+    text-align: center;
+    font-size: 28px;
+    color: #333333;
+}.Extension-txt{
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:100px;
+    width:200px;
+    height:60px;
+    grid-area: ExtentionBlock;
+    text-align: center;
+    font-size: 28px;
+    color: #333333;
+}
+
 
 /* .container-under-mainPage{
     font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
@@ -341,15 +440,30 @@ grid-template-areas:"space1 inteli runNdebug gitBlock ExtentionBlock space2";
 } */
 
 .block-1{
+    
     width: 100%;
     height: 29rem;
     background-color: #F5F5F5;
     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block-1 figure{
+    overflow: hidden;
+    padding-left: 48px;
+    padding-right: 0px;
+    position: relative;
+    width: 1412px;
+    margin: 0;
+    left: 0;
+    animation: 10s block-1 infinite;
 }
 .block-2{
     width: 100%;
     height: 29rem;
     background-color: #ffffff;
+    
     
 }
 .block-2-picture{
